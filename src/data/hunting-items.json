@@ -1,0 +1,19 @@
+{
+  "Mounts": [
+    { "id": "snake", "type": "Mounts", "name": "Snake", "dropRate": 0.0001, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] },
+    { "id": "octopus", "type": "Mounts", "name": "Octopus", "dropRate": 0.0000667, "attemptType": "cast", "minAttemptsPerMinute": 2, "maxAttemptsPerMinute": 2, "locations": ["The Shores", "Marketplace"] },
+    { "id": "dragon-mount", "type": "Mounts", "name": "Dragon Mount", "dropRate": 0.04, "attemptType": "kill", "minAttemptsPerMinute": 7.5, "maxAttemptsPerMinute": 7.5, "locations": ["Wilderness", "Marketplace"] },
+    { "id": "wolf-mount", "type": "Mounts", "name": "Wolf Mount", "dropRate": 1, "attemptType": "feed", "minAttemptsPerMinute": 1, "maxAttemptsPerMinute": 1, "locations": ["Wilderness", "Marketplace"] }
+  ],
+  "Cosmetics": [
+    { "id": "lightning-cape", "type": "Cosmetics", "name": "Lightning Cape", "dropRate": 0.00002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] },
+    { "id": "purple-party-hat", "type": "Cosmetics", "name": "Purple Party Hat", "dropRate": 0.00002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] },
+    { "id": "white-cape", "type": "Cosmetics", "name": "White Cape", "dropRate": 0.01, "attemptType": "spin", "minAttemptsPerMinute": 0.0013889, "maxAttemptsPerMinute": 0.0013889, "locations": ["Mainland (Paid Spin Wheel)"] },
+    { "id": "flame-cape", "type": "Cosmetics", "name": "Flame Cape", "dropRate": 0.00005, "attemptType": "cast", "minAttemptsPerMinute": 2, "maxAttemptsPerMinute": 2, "locations": ["Emberstone", "Marketplace"] },
+    { "id": "red-party-hat", "type": "Cosmetics", "name": "Red Party Hat", "dropRate": 0.0002, "attemptType": "cast", "minAttemptsPerMinute": 2, "maxAttemptsPerMinute": 2, "locations": ["Emberstone", "Marketplace"] }
+  ],
+  "Pets": [
+    { "id": "magma-brute-fishing", "type": "Pets", "name": "Magma Brute (Fishing)", "dropRate": 0.0005, "attemptType": "cast", "minAttemptsPerMinute": 2, "maxAttemptsPerMinute": 2, "locations": ["Emberstone", "Marketplace"] },
+    { "id": "magma-brute-combat", "type": "Pets", "name": "Magma Brute (Combat)", "dropRate": 0.002, "attemptType": "kill", "minAttemptsPerMinute": 6, "maxAttemptsPerMinute": 6, "locations": ["Emberstone", "Marketplace"] }
+  ]
+}
