@@ -8,7 +8,7 @@
   "Cosmetics": [
     { "id": "lightning-cape", "type": "Cosmetics", "name": "Lightning Cape", "dropRate": 0.00002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] },
     { "id": "purple-party-hat", "type": "Cosmetics", "name": "Purple Party Hat", "dropRate": 0.00002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] },
-    { "id": "white-cape", "type": "Cosmetics", "name": "White Cape", "dropRate": 0.01, "attemptType": "spin", "minAttemptsPerMinute": 0.0013889, "maxAttemptsPerMinute": 0.0013889, "locations": ["Mainland (Paid Spin Wheel)"] },
+    { "id": "Mitch Face", "type": "Cosmetics", "name": "Mitch Face", "dropRate": 0.01, "attemptType": "spin", "minAttemptsPerMinute": 0.0013889, "maxAttemptsPerMinute": 0.0013889, "locations": ["Mainland (Paid Spin Wheel)"] },
     { "id": "flame-cape", "type": "Cosmetics", "name": "Flame Cape", "dropRate": 0.00005, "attemptType": "cast", "minAttemptsPerMinute": 2, "maxAttemptsPerMinute": 2, "locations": ["Emberstone", "Marketplace"] },
     { "id": "red-party-hat", "type": "Cosmetics", "name": "Red Party Hat", "dropRate": 0.0002, "attemptType": "cast", "minAttemptsPerMinute": 2, "maxAttemptsPerMinute": 2, "locations": ["Emberstone", "Marketplace"] }
   ],
