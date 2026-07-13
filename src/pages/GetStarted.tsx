@@ -5,6 +5,7 @@ const VIDEOS: Record<string, string> = {
   Trade: "/videos/Trade.mp4",
   Buy: "/videos/Buy.mp4",
   Blacksmith: "/videos/Blacksmith.mp4",
+  ClaimingPhase: "/videos/ClaimingPhase.mp4",
 };
 
 export default function GetStarted() {
