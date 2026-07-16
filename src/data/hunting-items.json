@@ -8,10 +8,10 @@
   ],
   "Cosmetics": [
     { "id": "lightning-cape", "type": "Cosmetics", "name": "Lightning Cape", "dropRate": 0.00002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] },
-    { "id": "purple-party-hat", "type": "Cosmetics", "name": "Purple Party Hat", "dropRate": 0.00002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] }
+    { "id": "purple-party-hat", "type": "Cosmetics", "name": "Purple Party Hat", "dropRate": 0.00002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] },
+    { "id": "Blue Laser Eyes", "type": "Cosmetics", "name": "Blue Laser Eyes", "dropRate": 0.01, "attemptType": "spin", "minAttemptsPerMinute": 0.0013889, "maxAttemptsPerMinute": 0.0013889, "locations": ["Mainland (Paid Spin Wheel)"] }
   ],
   "Pets": [
-    { "id": "magma-brute-combat", "type": "Pets", "name": "Magma Brute (Combat)", "dropRate": 0.002, "attemptType": "kill", "minAttemptsPerMinute": 6, "maxAttemptsPerMinute": 6, "locations": ["Emberstone", "Marketplace"] },
-    { "id": "Tokabu", "type": "Cosmetics", "name": "Tokabu", "dropRate": 0.01, "attemptType": "spin", "minAttemptsPerMinute": 0.0013889, "maxAttemptsPerMinute": 0.0013889, "locations": ["Mainland (Paid Spin Wheel)"] }
+    { "id": "magma-brute-combat", "type": "Pets", "name": "Magma Brute (Combat)", "dropRate": 0.002, "attemptType": "kill", "minAttemptsPerMinute": 6, "maxAttemptsPerMinute": 6, "locations": ["Emberstone", "Marketplace"] }
   ]
 }
