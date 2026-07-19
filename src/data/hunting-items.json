@@ -21,7 +21,7 @@
   "Gold": [
     { "id": "venomweaver-gold", "type": "Gold", "name": "Venomweaver", "dropRate": 0.01, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] },
     { "id": "magma-brute-gold", "type": "Gold", "name": "Magma Brute", "dropRate": 0.002, "attemptType": "kill", "minAttemptsPerMinute": 6, "maxAttemptsPerMinute": 6, "locations": ["Emberstone", "Marketplace"] },
-    { "id": "wild-zombie-dragon-gold", "type": "Gold", "name": "Wild Zombie & Dragon", "dropRate": 0.01, "attemptType": "kill", "minAttemptsPerMinute": 7.5, "maxAttemptsPerMinute": 7.5, "locations": ["Wilderness", "Marketplace"] },
-    { "id": "wolves-gold", "type": "Gold", "name": "Wolves", "dropRate": 0.01, "attemptType": "kill", "minAttemptsPerMinute": 7.5, "maxAttemptsPerMinute": 7.5, "locations": ["Wilderness", "Marketplace"] }
+    { "id": "wild-zombie-dragon-gold", "type": "Gold", "name": "Wild Zombie & Dragon", "dropRate": 0.005, "attemptType": "kill", "minAttemptsPerMinute": 7.5, "maxAttemptsPerMinute": 7.5, "locations": ["Wilderness", "Marketplace"] },
+    { "id": "wolves-gold", "type": "Gold", "name": "Wolves", "dropRate": 0.005, "attemptType": "kill", "minAttemptsPerMinute": 7.5, "maxAttemptsPerMinute": 7.5, "locations": ["Wilderness", "Marketplace"] }
   ]
 }
