@@ -7,7 +7,7 @@ import {
   type HuntingItem,
 } from "../utils/calculateChances";
 
-const CATEGORIES = ["Cosmetics", "Mounts", "Pets", "Gold"] as const;
+const CATEGORIES = ["Cosmetics", "Mounts", "Pets", "Gold", "Scrolls"] as const;
 type Category = (typeof CATEGORIES)[number];
 
 const data = itemsData as Record<Category, HuntingItem[]>;
