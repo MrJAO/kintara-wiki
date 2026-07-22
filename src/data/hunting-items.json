@@ -20,12 +20,10 @@
   ],
   "Gold": [
     { "id": "venomweaver-gold", "type": "Gold", "name": "Venomweaver", "dropRate": 0.01, "goldMin": 1, "goldMax": 25, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] },
-    { "id": "magma-brute-gold", "type": "Gold", "name": "Magma Brute", "dropRate": 0.0028571, "goldMin": 1, "goldMax": 5, "attemptType": "kill", "minAttemptsPerMinute": 6, "maxAttemptsPerMinute": 6, "locations": ["Emberstone", "Marketplace"] },
-    { "id": "wild-zombie-dragon-gold", "type": "Gold", "name": "Wild Zombie & Dragon", "dropRate": 0.002, "goldMin": 1, "goldMax": 1, "attemptType": "kill", "minAttemptsPerMinute": 7.5, "maxAttemptsPerMinute": 7.5, "locations": ["Wilderness", "Marketplace"] },
-    { "id": "wolves-gold", "type": "Gold", "name": "Wolves", "dropRate": 0.002, "goldMin": 1, "goldMax": 1, "attemptType": "kill", "minAttemptsPerMinute": 7.5, "maxAttemptsPerMinute": 7.5, "locations": ["Wilderness", "Marketplace"] }
+    { "id": "magma-brute-gold", "type": "Gold", "name": "Magma Brute", "dropRate": 0.0028571, "goldMin": 1, "goldMax": 5, "attemptType": "kill", "minAttemptsPerMinute": 6, "maxAttemptsPerMinute": 6, "locations": ["Emberstone", "Marketplace"] }
   ],
   "Scrolls": [
     { "id": "beginner-scroll", "type": "Scrolls", "name": "Beginner Scroll", "dropRate": 0.001, "attemptType": "kill", "minAttemptsPerMinute": 7.5, "maxAttemptsPerMinute": 7.5, "goldRewardMin": 2, "goldRewardMax": 5, "tasks": 4, "bonusTasksMin": 1, "bonusTasksMax": 2, "locations": ["Wilderness"], "sources": ["Wild Dragon", "Wild Zombie", "Wolves"] },
-    { "id": "medium-scroll", "type": "Scrolls", "name": "Medium Scroll", "dropRate": 0.0013333, "attemptType": "kill", "minAttemptsPerMinute": 6, "maxAttemptsPerMinute": 6, "goldRewardMin": 15, "goldRewardMax": 28, "tasks": 5, "bonusTasksMin": 2, "bonusTasksMax": 3, "locations": ["Emberstone"], "sources": ["Magma Brute"] }
+    { "id": "medium-scroll", "type": "Scrolls", "name": "Medium Scroll", "dropRate": 0.0013333, "attemptType": "kill", "minAttemptsPerMinute": 6, "maxAttemptsPerMinute": 6, "goldRewardMin": 6, "goldRewardMax": 15, "tasks": 5, "bonusTasksMin": 2, "bonusTasksMax": 3, "locations": ["Emberstone"], "sources": ["Magma Brute"] }
   ]
 }
