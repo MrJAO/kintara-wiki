@@ -9,14 +9,14 @@
   "Cosmetics": [
     { "id": "lightning-cape", "type": "Cosmetics", "name": "Lightning Cape", "dropRate": 0.00002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] },
     { "id": "purple-party-hat", "type": "Cosmetics", "name": "Purple Party Hat", "dropRate": 0.00002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"], "alternateSource": { "dropRate": 0.0001, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Venomweaver", "Marketplace"] } },
-    { "id": "blue-laser-eyes", "type": "Cosmetics", "name": "Blue Laser Eyes", "dropRate": 0.01, "attemptType": "spin", "minAttemptsPerMinute": 0.0013889, "maxAttemptsPerMinute": 0.0013889, "locations": ["Mainland (Paid Spin Wheel)"] },
     { "id": "venomweaver-helm", "type": "Cosmetics", "name": "Venomweaver Helm", "dropRate": 0.0002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Venomweaver", "Marketplace"] },
     { "id": "venomweaver-chestplate", "type": "Cosmetics", "name": "Venomweaver Chestplate", "dropRate": 0.0002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Venomweaver", "Marketplace"] },
     { "id": "venomweaver-legguards", "type": "Cosmetics", "name": "Venomweaver Legguards", "dropRate": 0.0002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Venomweaver", "Marketplace"] },
     { "id": "venomweaver-boots", "type": "Cosmetics", "name": "Venomweaver Boots", "dropRate": 0.0002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Venomweaver", "Marketplace"] }
   ],
   "Pets": [
-    { "id": "magma-brute-combat", "type": "Pets", "name": "Magma Brute (Combat)", "dropRate": 0.002, "attemptType": "kill", "minAttemptsPerMinute": 6, "maxAttemptsPerMinute": 6, "locations": ["Emberstone", "Marketplace"] }
+    { "id": "magma-brute-combat", "type": "Pets", "name": "Magma Brute (Combat)", "dropRate": 0.002, "attemptType": "kill", "minAttemptsPerMinute": 6, "maxAttemptsPerMinute": 6, "locations": ["Emberstone", "Marketplace"] },
+    { "id": "jimothy-pet", "type": "Cosmetics", "name": "Jimothy", "dropRate": 0.01, "attemptType": "spin", "minAttemptsPerMinute": 0.0013889, "maxAttemptsPerMinute": 0.0013889, "locations": ["Mainland (Paid Spin Wheel)"] }
   ],
   "Gold": [
     { "id": "venomweaver-gold", "type": "Gold", "name": "Venomweaver", "dropRate": 0.01, "goldMin": 1, "goldMax": 25, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] },
