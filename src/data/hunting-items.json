@@ -4,7 +4,8 @@
     { "id": "turtle", "type": "Mounts", "name": "Turtle", "dropRate": 0.0002, "attemptType": "cast", "minAttemptsPerMinute": 2, "maxAttemptsPerMinute": 2, "locations": ["The Shores", "Marketplace"] },
     { "id": "dragon-mount", "type": "Mounts", "name": "Dragon Mount", "dropRate": 0.04, "attemptType": "kill", "minAttemptsPerMinute": 7.5, "maxAttemptsPerMinute": 7.5, "locations": ["Wilderness", "Marketplace"] },
     { "id": "wolf-mount", "type": "Mounts", "name": "Wolf Mount", "dropRate": 1, "attemptType": "feed", "minAttemptsPerMinute": 1, "maxAttemptsPerMinute": 1, "locations": ["Wilderness", "Marketplace"] },
-    { "id": "magma-crocodile", "type": "Mounts", "name": "Magma Crocodile", "dropRate": 0.0000333, "attemptType": "cast", "minAttemptsPerMinute": 2, "maxAttemptsPerMinute": 2, "locations": ["Emberstone", "Marketplace"] }
+    { "id": "magma-crocodile", "type": "Mounts", "name": "Magma Crocodile", "dropRate": 0.0000333, "attemptType": "cast", "minAttemptsPerMinute": 2, "maxAttemptsPerMinute": 2, "locations": ["Emberstone", "Marketplace"] },
+    { "id": "king-scorpia-mount", "type": "Mounts", "name": "King Scorpia Mount", "dropRate": 0.002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["The Dunes (West - King Scorpia only)", "Marketplace"] }
   ],
   "Cosmetics": [
     { "id": "lightning-cape", "type": "Cosmetics", "name": "Lightning Cape", "dropRate": 0.00002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] },
@@ -12,7 +13,14 @@
     { "id": "venomweaver-helm", "type": "Cosmetics", "name": "Venomweaver Helm", "dropRate": 0.0002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Venomweaver", "Marketplace"] },
     { "id": "venomweaver-chestplate", "type": "Cosmetics", "name": "Venomweaver Chestplate", "dropRate": 0.0002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Venomweaver", "Marketplace"] },
     { "id": "venomweaver-legguards", "type": "Cosmetics", "name": "Venomweaver Legguards", "dropRate": 0.0002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Venomweaver", "Marketplace"] },
-    { "id": "venomweaver-boots", "type": "Cosmetics", "name": "Venomweaver Boots", "dropRate": 0.0002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Venomweaver", "Marketplace"] }
+    { "id": "venomweaver-boots", "type": "Cosmetics", "name": "Venomweaver Boots", "dropRate": 0.0002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Venomweaver", "Marketplace"] },
+    { "id": "desert-robe-top", "type": "Cosmetics", "name": "Desert Robe Top", "dropRate": 0.0002, "attemptType": "kill", "minAttemptsPerMinute": 4, "maxAttemptsPerMinute": 6, "locations": ["The Dunes (West)", "The Dunes (East)", "Marketplace"] },
+    { "id": "desert-robe-bottom", "type": "Cosmetics", "name": "Desert Robe Bottom", "dropRate": 0.0002, "attemptType": "kill", "minAttemptsPerMinute": 4, "maxAttemptsPerMinute": 6, "locations": ["The Dunes (West)", "The Dunes (East)", "Marketplace"] },
+    { "id": "flaming-helmet", "type": "Cosmetics", "name": "Flaming Helmet", "dropRate": 0.002, "attemptType": "hard-scroll-roll", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["The Dunes (West - Hard Scroll only)", "Marketplace"] },
+    { "id": "gold-cane", "type": "Cosmetics", "name": "Gold Cane", "dropRate": 0.002, "attemptType": "hard-scroll-roll", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["The Dunes (West - Hard Scroll only)", "Marketplace"] },
+    { "id": "emerald-cane", "type": "Cosmetics", "name": "Emerald Cane", "dropRate": 0.002, "attemptType": "hard-scroll-roll", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["The Dunes (West - Hard Scroll only)", "Marketplace"] },
+    { "id": "ruby-cane", "type": "Cosmetics", "name": "Ruby Cane", "dropRate": 0.002, "attemptType": "hard-scroll-roll", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["The Dunes (West - Hard Scroll only)", "Marketplace"] },
+    { "id": "sapphire-cane", "type": "Cosmetics", "name": "Sapphire Cane", "dropRate": 0.002, "attemptType": "hard-scroll-roll", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["The Dunes (West - Hard Scroll only)", "Marketplace"] }
   ],
   "Pets": [
     { "id": "magma-brute-combat", "type": "Pets", "name": "Magma Brute (Combat)", "dropRate": 0.002, "attemptType": "kill", "minAttemptsPerMinute": 6, "maxAttemptsPerMinute": 6, "locations": ["Emberstone", "Marketplace"] },
@@ -20,10 +28,13 @@
   ],
   "Gold": [
     { "id": "venomweaver-gold", "type": "Gold", "name": "Venomweaver", "dropRate": 0.01, "goldMin": 1, "goldMax": 25, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] },
-    { "id": "magma-brute-gold", "type": "Gold", "name": "Magma Brute", "dropRate": 0.0028571, "goldMin": 1, "goldMax": 5, "attemptType": "kill", "minAttemptsPerMinute": 6, "maxAttemptsPerMinute": 6, "locations": ["Emberstone", "Marketplace"] }
+    { "id": "magma-brute-gold", "type": "Gold", "name": "Magma Brute", "dropRate": 0.0028571, "goldMin": 1, "goldMax": 5, "attemptType": "kill", "minAttemptsPerMinute": 6, "maxAttemptsPerMinute": 6, "locations": ["Emberstone", "Marketplace"] },
+    { "id": "king-scorpia-gold", "type": "Gold", "name": "King Scorpia", "dropRate": 0.005, "goldMin": 18, "goldMax": 30, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["The Dunes (West)", "Marketplace"] }
   ],
   "Scrolls": [
     { "id": "beginner-scroll", "type": "Scrolls", "name": "Beginner Scroll", "dropRate": 0.001, "attemptType": "kill", "minAttemptsPerMinute": 7.5, "maxAttemptsPerMinute": 7.5, "goldRewardMin": 2, "goldRewardMax": 5, "tasks": 4, "bonusTasksMin": 1, "bonusTasksMax": 2, "locations": ["Wilderness"], "sources": ["Wild Dragon", "Wild Zombie", "Wolves"] },
-    { "id": "medium-scroll", "type": "Scrolls", "name": "Medium Scroll", "dropRate": 0.0013333, "attemptType": "kill", "minAttemptsPerMinute": 6, "maxAttemptsPerMinute": 6, "goldRewardMin": 6, "goldRewardMax": 15, "tasks": 5, "bonusTasksMin": 2, "bonusTasksMax": 3, "locations": ["Emberstone"], "sources": ["Magma Brute"] }
+    { "id": "medium-scroll-magma-brute", "type": "Scrolls", "name": "Medium Scroll (Magma Brute)", "dropRate": 0.0013333, "attemptType": "kill", "minAttemptsPerMinute": 6, "maxAttemptsPerMinute": 6, "goldRewardMin": 15, "goldRewardMax": 28, "tasks": 5, "bonusTasksMin": 2, "bonusTasksMax": 3, "locations": ["Emberstone"], "sources": ["Magma Brute"] },
+    { "id": "medium-scroll-giant-scorpion", "type": "Scrolls", "name": "Medium Scroll (Giant Scorpion)", "dropRate": 0.002, "attemptType": "kill", "minAttemptsPerMinute": 4, "maxAttemptsPerMinute": 6, "goldRewardMin": 15, "goldRewardMax": 28, "tasks": 5, "bonusTasksMin": 2, "bonusTasksMax": 3, "locations": ["The Dunes (West)"], "sources": ["Giant Scorpion"], "note": "Fastest Medium Scroll farm" },
+    { "id": "hard-scroll", "type": "Scrolls", "name": "Hard Scroll", "dropRate": 0.01, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "goldRewardMin": 30, "goldRewardMax": 50, "tasks": 5, "bonusTasksMin": 3, "bonusTasksMax": 3, "cosmeticRolls": 5, "cosmeticDropRate": 0.002, "locations": ["The Dunes (West - King Scorpia only)"], "sources": ["King Scorpia"] }
   ]
 }
