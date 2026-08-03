@@ -5,6 +5,7 @@ const VIDEOS: Record<string, string> = {
   WildDragon: "/videos/WildDragon.mp4",
   MagmaBrute: "/videos/MagmaBrute.mp4",
   Venomweaver: "/videos/Venomweaver.mp4",
+  GiantScorpion: "/videos/GiantScorpion.mp4",
 };
 
 export default function CombatStrategy() {
