@@ -32,7 +32,7 @@
   ],
   "Pets": [
     { "id": "magma-brute-combat", "type": "Pets", "name": "Magma Brute (Combat)", "dropRate": 0.002, "attemptType": "kill", "minAttemptsPerMinute": 6, "maxAttemptsPerMinute": 6, "locations": ["Emberstone", "Marketplace"] },
-    { "id": "jimothy-pet", "type": "Cosmetics", "name": "Jimothy", "dropRate": 0.01, "attemptType": "spin", "minAttemptsPerMinute": 0.0013889, "maxAttemptsPerMinute": 0.0013889, "locations": ["Mainland (Paid Spin Wheel)"] }
+    { "id": "strawberry-elephant", "type": "Cosmetics", "name": "Strawberry Elephant", "dropRate": 0.01, "attemptType": "spin", "minAttemptsPerMinute": 0.0013889, "maxAttemptsPerMinute": 0.0013889, "locations": ["Mainland (Paid Spin Wheel)"] }
   ],
   "Gold": [
     { "id": "venomweaver-gold", "type": "Gold", "name": "Venomweaver", "dropRate": 0.01, "goldMin": 1, "goldMax": 25, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] },
