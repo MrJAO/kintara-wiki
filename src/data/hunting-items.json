@@ -1,12 +1,12 @@
 {
   "Mounts": [
     { "id": "snake", "type": "Mounts", "name": "Snake", "dropRate": 0.0001, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] },
-    { "id": "turtle", "type": "Mounts", "name": "Turtle", "dropRate": 0.0002, "attemptType": "cast", "minAttemptsPerMinute": 2, "maxAttemptsPerMinute": 2, "locations": ["The Shores", "Marketplace"] },
     { "id": "dragon-mount", "type": "Mounts", "name": "Dragon Mount", "dropRate": 0.04, "attemptType": "kill", "minAttemptsPerMinute": 7.5, "maxAttemptsPerMinute": 7.5, "locations": ["Wilderness", "Marketplace"] },
     { "id": "wolf-mount", "type": "Mounts", "name": "Wolf Mount", "dropRate": 1, "attemptType": "feed", "minAttemptsPerMinute": 1, "maxAttemptsPerMinute": 1, "locations": ["Wilderness", "Marketplace"] },
-    { "id": "magma-crocodile", "type": "Mounts", "name": "Magma Crocodile", "dropRate": 0.0000333, "attemptType": "cast", "minAttemptsPerMinute": 2, "maxAttemptsPerMinute": 2, "locations": ["Emberstone", "Marketplace"] },
     { "id": "king-scorpia-mount", "type": "Mounts", "name": "King Scorpia Mount", "dropRate": 0.002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["The Dunes (South - King Scorpia only)", "Marketplace"] },
-    { "id": "flying-carpet", "type": "Mounts", "name": "Flying Carpet", "dropRate": 0.0013333, "attemptType": "kill", "minAttemptsPerMinute": 4, "maxAttemptsPerMinute": 6, "locations": ["The Dunes (West - fastest Medium Scroll farm)", "Marketplace"] }
+    { "id": "flying-carpet", "type": "Mounts", "name": "Flying Carpet", "dropRate": 0.0013333, "attemptType": "kill", "minAttemptsPerMinute": 4, "maxAttemptsPerMinute": 6, "locations": ["The Dunes (West - fastest Medium Scroll farm)", "Marketplace"] },
+    { "id": "stingray-mount", "type": "Mounts", "name": "Stingray Mount", "dropRate": 0.0001, "attemptType": "cast", "minAttemptsPerMinute": 2, "maxAttemptsPerMinute": 2, "locations": ["The Shores", "Marketplace"] },
+    { "id": "dolphin-mount", "type": "Mounts", "name": "Dolphin Mount", "dropRate": 0.0001, "attemptType": "cast", "minAttemptsPerMinute": 2, "maxAttemptsPerMinute": 2, "locations": ["The Shores", "Marketplace"] }
   ],
   "Cosmetics": [
     { "id": "lightning-cape", "type": "Cosmetics", "name": "Lightning Cape", "dropRate": 0.00002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] },
@@ -32,7 +32,8 @@
   ],
   "Pets": [
     { "id": "magma-brute-combat", "type": "Pets", "name": "Magma Brute (Combat)", "dropRate": 0.002, "attemptType": "kill", "minAttemptsPerMinute": 6, "maxAttemptsPerMinute": 6, "locations": ["Emberstone", "Marketplace"] },
-    { "id": "strawberry-elephant", "type": "Cosmetics", "name": "Strawberry Elephant", "dropRate": 0.01, "attemptType": "spin", "minAttemptsPerMinute": 0.0013889, "maxAttemptsPerMinute": 0.0013889, "locations": ["Mainland (Paid Spin Wheel)"] }
+    { "id": "strawberry-elephant", "type": "Cosmetics", "name": "Strawberry Elephant", "dropRate": 0.01, "attemptType": "spin", "minAttemptsPerMinute": 0.0013889, "maxAttemptsPerMinute": 0.0013889, "locations": ["Mainland (Paid Spin Wheel)"] },
+    { "id": "lizard", "type": "Pets", "name": "Lizard", "dropRate": 0.000004, "attemptType": "fell-cactus", "minAttemptsPerMinute": 2, "maxAttemptsPerMinute": 2, "locations": ["The Dunes", "Marketplace"] }
   ],
   "Gold": [
     { "id": "venomweaver-gold", "type": "Gold", "name": "Venomweaver", "dropRate": 0.01, "goldMin": 1, "goldMax": 25, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] },
