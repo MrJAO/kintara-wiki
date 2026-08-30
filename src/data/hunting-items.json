@@ -40,7 +40,8 @@
     { "id": "magma-brute-combat", "type": "Pets", "name": "Magma Brute (Combat)", "dropRate": 0.002, "attemptType": "kill", "minAttemptsPerMinute": 6, "maxAttemptsPerMinute": 6, "locations": ["Emberstone", "Marketplace"] },
     { "id": "strawberry-elephant", "type": "Cosmetics", "name": "Strawberry Elephant", "dropRate": 0.01, "attemptType": "spin", "minAttemptsPerMinute": 0.0013889, "maxAttemptsPerMinute": 0.0013889, "locations": ["Mainland (Paid Spin Wheel)"] },
     { "id": "lizard", "type": "Pets", "name": "Lizard", "dropRate": 0.000004, "attemptType": "fell-cactus", "minAttemptsPerMinute": 2, "maxAttemptsPerMinute": 2, "locations": ["The Dunes", "Marketplace"] },
-    { "id": "venomweaver-pet", "type": "Pets", "name": "Venomweaver Pet", "dropRate": 0.00002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] }
+    { "id": "venomweaver-pet", "type": "Pets", "name": "Venomweaver Pet", "dropRate": 0.00002, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] },
+    { "id": "pnut", "type": "Pets", "name": "Pnut", "dropRate": 0.0000067, "attemptType": "chop", "minAttemptsPerMinute": 10, "maxAttemptsPerMinute": 10, "locations": ["Mainland", "Wilderness", "Whisperwood", "Frostmere", "The Pond", "Marketplace"] }
   ],
   "Gold": [
         { "id": "venomweaver-gold", "type": "Gold", "name": "Venomweaver", "dropRate": 0.005, "goldMin": 1, "goldMax": 25, "attemptType": "kill", "minAttemptsPerMinute": 0.1, "maxAttemptsPerMinute": 0.2, "locations": ["Glade Cave", "Marketplace"] },
